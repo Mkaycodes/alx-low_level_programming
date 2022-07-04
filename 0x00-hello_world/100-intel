@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 gcc -S -masm=intel $CFILE
+=======
+gcc -S -masm=intel $CFILE -o `echo $CFILE | cut -d. -f1`.s
+>>>>>>> 2029bda1b0e44af4fc697c4cbca97baf78db5ca0
