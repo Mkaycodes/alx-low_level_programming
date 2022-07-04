@@ -1,20 +1,16 @@
 #include <stdio.h>
 /**
- * main - Program entry point
- *
- * Return: 0 on success. Error code otherwise
+ * main -> assign a random number to the variable n each
+ *and print the last digit of the number stored in the variable n 
+ * Return: always 0
  */
 int main(void)
 {
-	char a = 'a';
-	int n = 0;
-
-	while (n < 26)
+	int ch;
+	for(ch=97;ch<=122;ch++)
 	{
-		putchar(a);
-		a++;
-		n++;
+		putchar(ch)
 	}
-	putchar('\n');
+	putchar(10); /* "this is an ASCII code for new line */
 	return (0);
 }

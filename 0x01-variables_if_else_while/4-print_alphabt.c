@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
 /**
-* main - Prints the alphabets without q and e
-*
+* main -> assign a random number to the variable n each 
+*and print the last digit of the number stored in the variable n
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-int i;
-for (i = 97; i < 123; i++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-if (i != 101 && i != 113)
+if (ch != 'q' && ch != 'e')
 {
-putchar(i);
+putchar(ch);
 }
 }
-putchar('\n');
+putchar(10); /*this is an ascii code for new line*/
 return (0);
 }

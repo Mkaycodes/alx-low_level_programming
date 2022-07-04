@@ -1,20 +1,21 @@
 #include <stdio.h>
 /**
-*main - Prints numbers between 0 to 9 and letters from a to f
-*
+*main -> assign a random number to the variable n each
+*and print the last digit of the number stored in the variable n
 * Return: Always 0
 */
 int main(void)
 {
-int i;
-for (i = 48; i < 58; i++)
+char ch;
+int n;
+for (n = 48; n <= 58; n++)
 {
-putchar(i);
+putchar(n);
 }
-for (i = 97; i < 103; i++)
+for (ch = 'a'; ch <= 'f'; ch++)
 {
-putchar(i);
+putchar(ch);
 }
-putchar('\n');
+putchar(10);
 return (0);
 }

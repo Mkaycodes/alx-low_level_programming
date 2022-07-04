@@ -3,29 +3,30 @@
 #include <time.h>
 
 /**
- * main - Program entry point
- *
- * Return: 0 on success. Error code otherwise
+ * main - > assign a raandom number to the variable n each time it is executed
+ *and print the last digit of the number stored in the variable n
+ * Return : always 0
  */
 int main(void)
 {
-	int n, l;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = n % 10;
-	if (l > 5)
+	printf("last digit of %d ls ", n);
+	if (n > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, l);
+		printf("greater than 5");
 	}
-	else if (l == 0)
+         if (n == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, l);
+		printf("0");
 	}
-	else if (l < 6 && l != 0)
+	if (n < 6 && n != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and ", n, l);
-		printf("not 0\n");
+		printf("Less than 6 not 0");
+	}
+		printf("\n");
 	}
 	return (0);
 }
