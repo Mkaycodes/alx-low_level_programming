@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
-*main ->  assign a random number to the variable n each
-*and print the last digit of the number stored the variable n
+*main ->  prints numbers from 0 to 9 with commas and spaces
+*
 * Return: Always 0 (Success)
 */
 int main(void)
 {
 int ch;
-for (ch = 48; ch <= 58; ch++)
+for (ch = 48; ch < 58; ch++)
 {
 putchar(ch);
 if (ch != 57)
