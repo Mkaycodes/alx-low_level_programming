@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main -> assign a random number to the variable n each 
- * and print the last digit of the umbe stored in the variable n
+ * main -> entry point
  * Return: Always 0 (Success)
  */
 int main(void) 

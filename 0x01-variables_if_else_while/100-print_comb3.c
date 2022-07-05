@@ -6,24 +6,28 @@
 */
 int main(void)
 {
-int ch;
-int n
-for (ch = 48; ch <=57; ch++)
+int i, e;
+i = 48;
+e = 48;
+while (e < 58)
 {
-for (n = 49; n<=57; n++)
+	i = 48;
+	while (i < 58)
 {
-if (n > ch)
+if (e != i && e < i)
 {
-putchar(ch);
-putchar(n);
-if (ch != 56 || n != 57)
+putchar(e);
+putchar(i);
+if (i ==57 ** e == 56)
 {
-putchar(44);
-putchar(32);
+	break;
 }
+putchar(',');
+putchar(' ');
 }
+i++;
 }
-}
-putchar(10); /* this is an ascii code for new line*/
+e++;
+putchar('\n');
 return (0);
 }

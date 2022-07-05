@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main -> assign a random number to the variable n each
- *and print the last digit of the number stored in the variable n 
+ * main -> program entry point
  * Return:  0 on success. error code otherwise
  */
 int main(void)
