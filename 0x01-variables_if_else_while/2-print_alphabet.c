@@ -5,14 +5,11 @@
  */
 int main(void)
 {
-	char a = 'a';
-        int n = 0;
-	while (n < 26)
+	int ch;
+	for (ch = 97; ch <= 122; ch ++)
 	{
-		putchar(a);
-		a++;
-		n++;
+		putchar(ch);
 	}
-	putchar('\n');
+	putchar(10); /* this is an ascii code fornew line */
 	return (0);
 }
