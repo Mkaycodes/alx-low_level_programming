@@ -3,7 +3,7 @@
 
 
 /**
- *_puts -> this ia a function that puts.
+ *_puts -> this is a function that puts.
  *
  *@str: a param to _puts function.
  */
